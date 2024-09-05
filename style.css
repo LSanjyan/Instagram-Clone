@@ -28,5 +28,21 @@ button {
     height: 20px;
 
 }
-    
+
+
+.comments{
+    opacity:30%;
+}
+
+#likes{
+    font-weight: bold;
+}
+
+nav{
+    /* background-color: aqua; */
+    display: flex;
+    justify-content:flex-start;
+    width: 100%;
+
+}
 
