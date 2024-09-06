@@ -5,25 +5,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <title>Multigram</title>
   </head>
   <body>
-    <h1>Account Page</h1>
-    <nav>
-      <h1>Multigram</h1>
-      <div>
-        <button>Log in</button>
-        <button>Sign Up</button>
+    <nav class="container" id="accountNAV">
+      <h1 class="logo">Multigram</h1>
+      <div class="container" id="buttonDIV1">
+        <button class="navBTN" id="login">Log in</button>
+        <button class="navBTN" id="signup">Sign Up</button>
       </div>
     </nav>
-    <header>
-      <h1>Bob Boberton</h1>
-      <div>
-        <button>Follow</button>
-        <button>Message</button>
+    <div class="container" id="header">
+      <div class="container" id="photo">
+        <i class="material-icons md-48">photo</i>
       </div>
-    </header>
-    <div>
+      <div class="containerCOLUMN" id="profileINFO">
+        <h1>Bob Boberton</h1>
+        <div class="container" id="buttonDIV2">
+          <button class="profileBTN">Follow</button>
+          <button class="profileBTN">Message</button>
+        </div>
+      </div>
+
+    </div>
+    <div class="containerCOLUMN" id="bioDIV">
+      <h4>Bob's World</h4>
+      <p>All Bob, All the Time.
+      </br>
+      A veritable Bobalooza.
+      </p>
+    </div>
+    <div class="container" id="feed">
       <img src="https://picsum.photos/200">
       <img src="https://picsum.photos/200">
       <img src="https://picsum.photos/200">
@@ -36,7 +49,6 @@
       <img src="https://picsum.photos/200">
       
     </div>
-
     <script src="script.js"></script>
   </body>
 </html>
